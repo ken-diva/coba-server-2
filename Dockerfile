@@ -50,7 +50,7 @@ COPY --from=builder /app .
 RUN pip install --no-cache-dir Flask
 
 # Tentukan port yang akan digunakan oleh aplikasi (ubah sesuai kebutuhan)
-EXPOSE 1234
+EXPOSE 1444
 
 # Atur command untuk menjalankan aplikasi saat container dijalankan
-CMD ["python", "app.py", "--port", "1234"]
+CMD ["python", "app.py", "--port", "1444"]
