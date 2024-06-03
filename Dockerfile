@@ -69,7 +69,7 @@ RUN pip install -r requirements.txt
 COPY . /app/
 
 # Expose port yang digunakan oleh Flask
-EXPOSE 5000
+EXPOSE 1444
 
 # Jalankan aplikasi Flask
 CMD ["python", "app.py", "--port", "1444"]
